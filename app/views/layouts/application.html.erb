@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cooking Recipe</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  <header>
+    <div class="heading">
+    <div class="title">Cooking Recipe</div>
+    </div>
+      <div class="navbar">
+        <ul class="nav-lists">
+          <li>献立</li>
+          <li>見つける</li>
+          <li>人気ランキング</li>
+          <li>お気に入り</li>
+          <li>公開する</li>
+          <li>設定</li>
+        </ul>
+     </div>
+  </header>
+  
+    <%= yield %>
+
+    <footer>
+    
+    </footer>
+  </body>
+</html>
