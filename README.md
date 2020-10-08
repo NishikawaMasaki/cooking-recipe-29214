@@ -26,7 +26,7 @@ Cooking Recipe
 これにより1週間分の食材をまとめ買いすることが可能です。  
 結果、その都度スーパーに行く必要がなくなり、同時に無駄な買い物がなくなり、節約に繋がります。
 
-![demo](https://gyazo.com/f7041b1061e3655a994eba4068504de6.png)
+![demo](https://user-images.githubusercontent.com/69832419/95498280-88f3c980-09de-11eb-8fb9-310ca0ceed5a.gif)
 
 ## 実装予定の機能	
 検索機能  
